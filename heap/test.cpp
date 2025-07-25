@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "Heap.hpp"
+#include "heap.hpp"
 
 TEST(HeapTest, InsertGetMinTest) {
   Heap h;
