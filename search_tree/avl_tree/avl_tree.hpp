@@ -1,10 +1,17 @@
 /*
 How it works:
-AVL Tree is a binary tree which maintains two key properties:
-- Search tree property: for any node all values in its left subtree are less than the node's value and all values in its right subtree are greater than the node's value.
-- Height property: the heights of any node's left and right subtrees differ by at most 1. The balance is maintained through tree rotations after insertions.
+AVL Tree is a binary tree with two key properties:
+- Search tree property: for any node all values in its left subtree are less
+than the node's value and all values in its right subtree are greater than the
+node's value.
+- Height property: the heights of any node's left and right subtrees differ by
+at most 1. The balance is maintained through tree rotations after insertions.
 
-It supports inserting elements and getting lower bound of an element x (the smallest element >= x) in O(logn) time.
+The last invariant is maintained by performing left and right rotations after
+insertions.
+
+It supports inserting elements and getting lower bound of an element x (the
+smallest element >= x) in O(logn) time.
 */
 
 #include <algorithm>
