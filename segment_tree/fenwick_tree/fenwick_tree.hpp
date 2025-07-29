@@ -16,7 +16,7 @@ the same space as the original array (n elements).
 
 class FenwickTree {
  public:
-  FenwickTree(const std::vector<long long> arr);
+  FenwickTree(const std::vector<long long>& arr);
 
   void Update(size_t pos, long long val);
 
