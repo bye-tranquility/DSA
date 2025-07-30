@@ -14,6 +14,9 @@ Compared to segment tree, fenwick tree is more memory efficient: it uses exactly
 the same space as the original array (n elements).
 */
 
+#include <cstdint>
+#include <vector>
+
 class FenwickTree {
  public:
   FenwickTree(const std::vector<long long>& arr);

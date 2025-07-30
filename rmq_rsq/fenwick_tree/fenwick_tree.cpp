@@ -1,8 +1,5 @@
 #include "fenwick_tree.hpp"
 
-#include <cstdint>
-#include <vector>
-
 FenwickTree::FenwickTree(const std::vector<long long>& arr)
     : fenwick_(arr.size()), size_(arr.size()) {
   for (size_t i = 0; i < size_; ++i) {
